@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IISandSqlRestart.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TimeInterval" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="TimeBusyChecking" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">00:01:00</Value>
+    </Setting>
+    <Setting Name="ModelEntities" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;metadata=res://*/ModelData.ModelDataEntities.csdl|res://*/ModelData.ModelDataEntities.ssdl|res://*/ModelData.ModelDataEntities.msl;provider=System.Data.SqlClient;provider connection string="data source=202.152.34.156;initial catalog=INDOPAYROLL_SIT;persist security info=True;user id=userdev;password=P@ssw0rd;multipleactiveresultsets=True;application name=EntityFramework"&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">metadata=res://*/ModelData.ModelDataEntities.csdl|res://*/ModelData.ModelDataEntities.ssdl|res://*/ModelData.ModelDataEntities.msl;provider=System.Data.SqlClient;provider connection string="data source=202.152.34.156;initial catalog=INDOPAYROLL_SIT;persist security info=True;user id=userdev;password=P@ssw0rd;multipleactiveresultsets=True;application name=EntityFramework"</Value>
+    </Setting>
+    <Setting Name="TimeAlert" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">17:13:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
